@@ -34,7 +34,7 @@ class Linkedlist:
             current=current.next
             count+=1
         if not current:
-            print("index ou of bounds")
+            print("index ou of bound")
             return
         new_node.next=current.next
         current.next=new_node
@@ -52,7 +52,7 @@ class Linkedlist:
           current=current.next
           count+=1
        if not current.next:
-          print("Index out of bounds.")
+          print("Index out of bound")
           return
        current.next = current.next.next
 
